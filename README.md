@@ -1,2 +1,2 @@
 # cbt
-CBT Landing Page
+CBT Landing Page:  http://kora731.github.io/cbt/ 
