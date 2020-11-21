@@ -1,0 +1,35 @@
+{
+  "name": "cb-t.org",
+  "version": "1.0.0",
+  "description": "Official Website of Community Builder Toolbox, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinbenlv/cbt.git"
+  },
+  "keywords": [
+    "cbt"
+  ],
+  "private": true,
+  "author": "S.Ruan, Xinbenlv",
+  "bugs": {
+    "url": "https://github.com/xinbenlv/cbt/issues"
+  },
+  "homepage": "https://github.com/xinbenlv/cbt#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  },
+  "scripts": {
+    "watch:sass": "node-sass custom/scss/main.scss build/css/style.css -w",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass custom/scss/main.scss build/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' build/css/style.comp.css -o build/css/style.prefix.css",
+    "compress:css": "node-sass build/css/style.prefix.css build/css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  }
+}
