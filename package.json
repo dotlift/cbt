@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/xinbenlv/cbt#readme",
   "devDependencies": {
+    "@percy/script": "^1.1.0",
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
     "live-server": "^1.2.1",
