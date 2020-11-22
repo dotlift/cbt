@@ -1,2 +1,3 @@
-# cbt
-CBT Landing Page:  http://kora731.github.io/cbt/ 
+# Website for CBT
+
+This source folder holds the source code for Website for Community Builder Toolbox, Inc.
