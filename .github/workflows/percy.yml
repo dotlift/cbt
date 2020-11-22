@@ -8,7 +8,5 @@ jobs:
         uses: actions/checkout@master
       - name: Percy Test
         uses: percy/snapshot-action@v0.1.2
-        with:
-          build-directory: "/"
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
