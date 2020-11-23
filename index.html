@@ -24,9 +24,19 @@
   <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--not-top headroom--not-bottom headroom--unpinned">
       <div class="container">
-        <a class="navbar-brand mr-lg-5" href="index.html">
-          <img src="/assets/img/brand/white.png">
-        </a>
+        <a class="cbt-brand" href="index.html">
+          
+          <picture class="cbt-brand__logo">
+            <source media="(max-width: 992px)" srcset="/assets/img/brand/cbt-logo.png">
+            <source media="(min-width: 993px)" srcset="/assets/img/brand/cbt-logo@3x.png">
+            <img src="/assets/img/brand/cbt-logo.png" alt="CBT Logo">
+          </picture>
+        
+          <div>
+            <span class="cbt-brand__name cbt-brand__name--long">Community Builder Toolbox</span>
+            <span class="cbt-brand__name cbt-brand__name--short">CBT</span>
+          </div>
+          </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +45,7 @@
             <div class="row">
               <div class="col-6 collapse-brand">
                 <a href="index.html">
-                  <img src="/assets/img/brand/white.png">
+                  <img src="/assets/img/brand/cbt-logo.png"> <span class="cbt-brand__name">Community Builder Toolbox</span>
                 </a>
               </div>
               <div class="col-6 collapse-close">
