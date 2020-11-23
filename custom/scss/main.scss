@@ -92,13 +92,14 @@
     }
 
     &__item {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 14rem;
+        text-align: center;
         @media only screen and (max-width: 575px/*Bootstrap --breakpoints-lg TODO update with SCSS var*/) {
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
             margin-bottom: $cbt-roadmap-item-gap;
-            max-width: 14rem;;
+   
         }
     }
     &__img {
