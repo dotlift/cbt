@@ -13,8 +13,10 @@ snapshot:
     1024,  # lg iPad Pro
     1280,  # xl Middle Resolution MacBook Pro 15in 
     1920,  # xl Largest Resolution MacBook Pro 15in
-    # -- NOT ACTIVATING -- 42560,  # xl DELL U2719DC 27inch
-    3440,  # xl Samsung 34-Inch SJ55W Ultrawide Gaming Monitor 
+    # -- NOT ACTIVATING -- 2560,  # xl DELL U2719DC 27inch
+    
+    # -- NOT SUPPORTED BY PERCY YET As of 2020-11-23 -- 
+    # 3440,  # xl Samsung 34-Inch SJ55W Ultrawide Gaming Monitor 
   ]
 static-snapshots:
   snapshot-files: '*.html'
