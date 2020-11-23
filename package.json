@@ -1,20 +1,20 @@
 {
-  "name": "cb-t.org",
-  "version": "1.0.0",
+  "name": "Official cb-t.org Web",
+  "version": "1.1.0",
   "description": "Official Website of Community Builder Toolbox, Inc.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xinbenlv/cbt.git"
+    "url": "git+https://github.com/dotlift/cbt.git"
   },
   "keywords": [
     "cbt"
   ],
-  "private": true,
-  "author": "S.Ruan, Xinbenlv",
+  "author": "kora731@, xinbenlv@",
   "bugs": {
-    "url": "https://github.com/xinbenlv/cbt/issues"
+    "url": "https://github.com/dotlift/cbt/issues"
   },
-  "homepage": "https://github.com/xinbenlv/cbt#readme",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/dotlift/cbt#readme",
   "devDependencies": {
     "@percy/script": "^1.1.0",
     "autoprefixer": "^7.1.4",
