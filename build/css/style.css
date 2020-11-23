@@ -4,6 +4,15 @@
   grid-gap: 5rem; }
   .case-study .card {
     height: 100%; }
+  .case-study .card-blockquote {
+    color: #333;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 992px) {
+      .case-study .card-blockquote {
+        font-size: .8rem;
+        padding: 1rem; } }
+    .case-study .card-blockquote h6 {
+      margin-bottom: 2rem; }
 
 .hero-buttons {
   display: grid;

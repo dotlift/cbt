@@ -2,8 +2,23 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
     grid-gap: 5rem;
-    & .card {
+    
+    .card {
         height: 100%;
+    }
+
+    .card-blockquote {
+        color: #333;
+        margin-bottom: 0;
+        @media only screen and (max-width: 992px/*Bootstrap --breakpoints-lg TODO update with SCSS var*/) {
+            font-size: .8rem;
+            padding: 1rem;
+        }
+
+        h6 {
+            margin-bottom: 2rem;
+        }
+
     }
 }
 
