@@ -15,6 +15,9 @@
   },
   "license": "Apache-2.0",
   "homepage": "https://github.com/dotlift/cbt#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "@percy/cli": "^1.27.3",
     "autoprefixer": "^10.4.16",
