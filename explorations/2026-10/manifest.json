@@ -1,0 +1,138 @@
+{
+  "generator": "built-in image_gen",
+  "sourceRevision": "7952c83c7c1853084054839d1afe384242b13ad7",
+  "images": [
+    {
+      "file": "foundation/desktop.jpg",
+      "width": 1440,
+      "height": 3480,
+      "bytes": 593083,
+      "quality": 80,
+      "sourceWidth": 807,
+      "sourceHeight": 1950,
+      "sourceFile": "exec-5bd3a97d-a5aa-4579-adac-7c4fd386405d.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "foundation/mobile.jpg",
+      "width": 390,
+      "height": 1000,
+      "bytes": 151033,
+      "quality": 92,
+      "sourceWidth": 783,
+      "sourceHeight": 2008,
+      "sourceFile": "exec-1e67509c-3fc5-4cf3-b55a-f7ab3f3c7c47.png",
+      "scope": "opening viewport"
+    },
+    {
+      "file": "signal/desktop.jpg",
+      "width": 1440,
+      "height": 3649,
+      "bytes": 531788,
+      "quality": 84,
+      "sourceWidth": 788,
+      "sourceHeight": 1997,
+      "sourceFile": "exec-eb67a3ae-6caf-4ae6-a244-ca66ebc4c3a0.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "signal/mobile.jpg",
+      "width": 390,
+      "height": 998,
+      "bytes": 121145,
+      "quality": 92,
+      "sourceWidth": 784,
+      "sourceHeight": 2007,
+      "sourceFile": "exec-aee2da93-4c00-4316-b558-9f5067ea1ae9.png",
+      "scope": "opening viewport"
+    },
+    {
+      "file": "comic/desktop.jpg",
+      "width": 1440,
+      "height": 3437,
+      "bytes": 581140,
+      "quality": 56,
+      "sourceWidth": 812,
+      "sourceHeight": 1938,
+      "sourceFile": "exec-fa19fa81-ea05-4d49-96a5-1d15caf710db.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "comic/mobile.jpg",
+      "width": 390,
+      "height": 1000,
+      "bytes": 216212,
+      "quality": 92,
+      "sourceWidth": 783,
+      "sourceHeight": 2008,
+      "sourceFile": "exec-f68ca3e8-5662-4440-9d07-05fb368184c4.png",
+      "scope": "opening viewport"
+    },
+    {
+      "file": "wild/desktop.jpg",
+      "width": 1440,
+      "height": 3666,
+      "bytes": 578884,
+      "quality": 80,
+      "sourceWidth": 786,
+      "sourceHeight": 2001,
+      "sourceFile": "exec-949eccd5-795e-4cc5-a4a0-3e64eeae01f1.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "wild/mobile.jpg",
+      "width": 390,
+      "height": 998,
+      "bytes": 133541,
+      "quality": 92,
+      "sourceWidth": 784,
+      "sourceHeight": 2007,
+      "sourceFile": "exec-ba0c27c5-1a93-40d6-be65-32e2e6fc4b74.png",
+      "scope": "opening viewport"
+    },
+    {
+      "file": "paper/desktop.jpg",
+      "width": 1440,
+      "height": 3654,
+      "bytes": 585928,
+      "quality": 80,
+      "sourceWidth": 787,
+      "sourceHeight": 1997,
+      "sourceFile": "exec-a481a359-c687-4247-a849-d078311a15a3.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "paper/mobile.jpg",
+      "width": 390,
+      "height": 1000,
+      "bytes": 146691,
+      "quality": 92,
+      "sourceWidth": 783,
+      "sourceHeight": 2007,
+      "sourceFile": "exec-e926f5af-6b13-4403-8df4-4c63332894c6.png",
+      "scope": "opening viewport"
+    },
+    {
+      "file": "editorial/desktop.jpg",
+      "width": 1440,
+      "height": 3376,
+      "bytes": 541001,
+      "quality": 76,
+      "sourceWidth": 819,
+      "sourceHeight": 1920,
+      "sourceFile": "exec-c8a5fa73-db29-48fe-8857-6e389d0216b5.png",
+      "scope": "page structure"
+    },
+    {
+      "file": "editorial/mobile.jpg",
+      "width": 390,
+      "height": 1000,
+      "bytes": 142355,
+      "quality": 92,
+      "sourceWidth": 783,
+      "sourceHeight": 2007,
+      "sourceFile": "exec-b8c27a7f-6948-4529-a76e-3e2ce07596f6.png",
+      "scope": "opening viewport"
+    }
+  ]
+}

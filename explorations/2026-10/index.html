@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>CBT · Compare six visual directions</title>
+  <style>
+    :root{color-scheme:light;--paper:#f7f6f2;--ink:#212320;--muted:#65685f;--line:#dcded5}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-underline-offset:4px}a:focus-visible{outline:3px solid #2563eb;outline-offset:5px}
+    .wrap{max-width:1440px;margin:auto;padding:0 40px}
+    header{padding:64px 0 32px;max-width:850px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+    h1{font:400 clamp(40px,5vw,72px)/1.06 Georgia,serif;letter-spacing:-.035em;margin:20px 0}
+    header p{color:var(--muted);max-width:68ch;margin:0}.scope{font-size:14px;margin-top:12px}
+    nav{position:sticky;top:0;z-index:2;background:var(--paper);border-block:1px solid var(--line);display:flex;gap:22px;overflow:auto;padding:14px 0;white-space:nowrap;font-size:13px}
+    nav a{padding:4px 0;text-decoration:none}nav a:hover{text-decoration:underline}
+    article{padding:46px 0 50px;border-bottom:1px solid var(--line);scroll-margin-top:20px}
+    .intro{display:flex;justify-content:space-between;gap:24px;align-items:baseline;margin-bottom:20px}
+    h2{font:400 32px/1.2 Georgia,serif;margin:0 0 8px}.number{font:12px/1.5 ui-monospace,monospace;margin-right:10px;color:var(--muted)}
+    .intro p{color:var(--muted);margin:0;max-width:65ch}.pair{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:24px;align-items:start}
+    figure{margin:0;min-width:0}figcaption{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-bottom:10px}
+    .shot{height:650px;overflow:auto;display:block;background:#e9e9e3;border:1px solid var(--line);overscroll-behavior:contain}
+    .shot img{display:block;width:100%;height:auto}.open{font-size:12px;display:inline-block;margin-top:9px}
+    footer{padding:38px 0 64px;font-size:13px;color:var(--muted);max-width:85ch}footer p{margin:0 0 10px}
+    @media(min-width:1600px){.shot{height:760px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media(max-width:760px){.wrap{padding:0 20px}header{padding-top:36px}.pair{grid-template-columns:1fr}.intro{display:block}h2{font-size:28px}.pair figure:nth-child(2){width:min(100%,390px)}.shot{height:560px}nav{gap:18px}article{padding-block:32px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Community Builder Toolbox · October 2026</div>
+    <h1>Compare six directions for a community home.</h1>
+    <p>Six light-theme homepage concepts share the same public stories. Desktop images show the page structure. Mobile images show the opening viewport at a readable scale.</p>
+    <p class="scope">Scroll inside each preview to see the full page. Open the JPG to inspect the text at full size.</p>
+  </header>
+  <nav aria-label="Choose a direction">
+    <a href="#foundation">01 Foundation Journal</a><a href="#signal">02 Civic Signal</a><a href="#comic">03 Volunteer Comics</a><a href="#wild">04 Open Stage</a><a href="#paper">05 Paper &amp; People</a><a href="#editorial">06 Community Editorial</a>
+  </nav>
+  <main id="directions"></main>
+  <footer>
+    <p>The built-in imagegen tool created these complete webpage concepts. The original CBT logo and event photographs serve as references. The model renders those references; the concepts do not establish pixel identity.</p>
+    <p>The copy comes from the repository homepage at revision <code>7952c83</code>. The concepts keep the public sponsor introduction and omit contract details, financial material and legal downloads.</p>
+    <p><a href="README.md">Read the direction notes</a> · <a href="prompts.json">Read the generation prompts</a></p>
+  </footer>
+</div>
+<script>
+  const directions = [
+    ['foundation','Foundation Journal','Ivory, navy and serif typography give the nonprofit a calm, established presence.'],
+    ['signal','Civic Signal','A precise cobalt grid presents the community as a modern network of builders.'],
+    ['comic','Volunteer Comics','Hand-inked panels and bright colours bring the energy of volunteering to the page.'],
+    ['wild','Open Stage','Oversized type and bold poster compositions give the cultural programme a strong voice.'],
+    ['paper','Paper & People','Cinnabar paper cuts and open editorial space give Chinese festivities a contemporary form.'],
+    ['editorial','Community Editorial','Large photographs and confident magazine typography put real people at the centre.']
+  ];
+  const main = document.getElementById('directions');
+  directions.forEach(([id,name,description],i)=>{
+    const article=document.createElement('article'); article.id=id;
+    const intro=document.createElement('div');intro.className='intro';
+    const text=document.createElement('div');const heading=document.createElement('h2');
+    const number=document.createElement('span');number.className='number';number.textContent=String(i+1).padStart(2,'0');heading.append(number,document.createTextNode(name));
+    const p=document.createElement('p');p.textContent=description;text.append(heading,p);intro.append(text);article.append(intro);
+    const pair=document.createElement('div');pair.className='pair';
+    [['desktop',1440],['mobile',390]].forEach(([device,width])=>{
+      const path=`${id}/${device}.jpg`;const figure=document.createElement('figure');
+      const caption=document.createElement('figcaption');const label=document.createElement('span');label.textContent=device==='desktop'?'Desktop · page structure':'Mobile · opening viewport';
+      const size=document.createElement('span');size.textContent=`${width} px`;caption.append(label,size);
+      const shot=document.createElement('div');shot.className='shot';shot.tabIndex=0;shot.setAttribute('role','region');shot.setAttribute('aria-label',`${name}, ${device}, scrollable preview`);
+      const img=document.createElement('img');img.src=path;img.alt=`${name}: ${device} homepage concept`;img.loading=i===0?'eager':'lazy';img.decoding='async';shot.append(img);
+      const link=document.createElement('a');link.className='open';link.href=path;link.target='_blank';link.rel='noopener';link.textContent=`Open ${device} JPG ↗`;link.setAttribute('aria-label',`Open ${name} ${device} JPG`);
+      figure.append(caption,shot,link);pair.append(figure);
+    });article.append(pair);main.append(article);
+  });
+</script>
+</body>
+</html>
