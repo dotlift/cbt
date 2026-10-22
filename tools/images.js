@@ -41,6 +41,13 @@ const photos = {
       console.log(`${name}-${w}: ${w}x${avif.height}  avif ${(avif.size / 1024).toFixed(1)} KB  webp ${(webp.size / 1024).toFixed(1)} KB`);
     }
   }
+  // The logo in the header (44 px) and the footer (40 px), for 2x and 3x screens.
+  const logo = path.join(__dirname, '..', 'assets', 'img', 'brand', 'cbt-logo.png');
+  for (const w of [88, 132]) {
+    const out = await sharp(logo).resize({width: w}).webp({quality: 90, effort: 6})
+        .toFile(path.join(path.dirname(logo), `cbt-logo-${w}.webp`));
+    console.log(`cbt-logo-${w}.webp: ${(out.size / 1024).toFixed(1)} KB`);
+  }
   // The share image for Open Graph and Twitter cards: 1200x630, cut from the hero photo.
   const og = await sharp(path.join(dir, 'zgzg-2018-gala-cast.jpg'))
       .resize({width: 1200, height: 630, fit: 'cover', position: 'centre'})
