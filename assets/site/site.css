@@ -267,3 +267,5 @@ footer nav { display: flex; gap: 20px; }
 .zh .brand span { max-width: none; white-space: nowrap; }
 .brand { flex: none; }
 .links { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; }
+.comm .poster.photo { border: 0; background: none; }
+.comm .poster.photo img { aspect-ratio: 16 / 9; object-fit: cover; padding: 0; }
