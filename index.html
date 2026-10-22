@@ -4,185 +4,228 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Community Builder Toolbox</title>
-  <meta name="description" content="Community Builder Toolbox, Inc. is an all-volunteer 501(c)(3) nonprofit in the San Francisco Bay Area. We are the nonprofit home for volunteer-run communities such as ZaiGeZaiGu.">
+  <meta name="description" content="Community Builder Toolbox, Inc. is an all-volunteer 501(c)(3) nonprofit. It is the nonprofit home of six volunteer communities in the San Francisco Bay Area and Seattle, including ZaiGeZaiGu.">
+  <meta name="theme-color" content="#fbf8f3">
   <link rel="alternate" hreflang="zh" href="/zh/">
   <link rel="alternate" hreflang="en" href="/">
   <link rel="icon" type="image/png" href="/assets/img/brand/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site/site.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/assets/img/brand/cbt-logo.png" alt="">Community Builder Toolbox</a>
-      <nav class="nav">
+      <a class="brand" href="/"><img src="/assets/img/brand/cbt-logo.png" alt="" width="44" height="44"><span>Community Builder Toolbox</span></a>
+      <a class="lang-mobile" href="/zh/" lang="zh" hreflang="zh">中文</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Main">
         <a href="#communities">Communities</a>
         <a href="#builders">For builders</a>
         <a href="#sponsors">For sponsors</a>
         <a href="#toolbox">Toolbox</a>
         <a href="#join">Join</a>
+        <a class="lang" href="/zh/" lang="zh" hreflang="zh">中文</a>
       </nav>
-      <a class="lang" href="/zh/" lang="zh">中文</a>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="wrap">
         <div class="eyebrow">501(c)(3) nonprofit · San Francisco Bay Area</div>
-        <h1>The nonprofit home for volunteer-run communities.</h1>
-        <p class="lead">Community Builder Toolbox (CBT) gives volunteer communities a legal home, signed contracts, and a working playbook. Since 2018, CBT has carried ZaiGeZaiGu's Spring Festival Galas, singing contests and culture fairs. Today CBT is the nonprofit home of six volunteer communities in the Bay Area and Seattle.</p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="#builders">Bring your community to CBT</a>
-          <a class="btn btn-ghost" href="#sponsors">Sponsor a community</a>
+        <h1 class="h-display">The nonprofit home <span class="red">for volunteer-run</span> communities.</h1>
+        <p class="lead">Since 2018, CBT has carried ZaiGeZaiGu's Spring Festival Galas, singing contests and culture fairs. Today CBT is the nonprofit home of six volunteer communities in the Bay Area and Seattle.</p>
+        <div class="btns">
+          <a class="btn btn-red" href="#builders">Bring your community to CBT</a>
+          <a class="btn btn-line" href="#sponsors">Sponsor a community</a>
         </div>
-        <figure class="hero-photo">
-          <img src="/assets/img/site/zgzg-2018-gala-cast.jpg" alt="Cast and crew of the 2018 ZaiGeZaiGu Spring Festival Gala on stage">
+        <figure class="hero-figure">
+          <img src="/assets/img/site/zgzg-2018-gala-cast.jpg" alt="Cast and crew of the 2018 ZaiGeZaiGu Spring Festival Gala on stage" width="1800" height="1019" fetchpriority="high">
+          <figcaption>Cast and crew of the 2018 ZaiGeZaiGu Spring Festival Gala.</figcaption>
         </figure>
-        <figcaption>Cast and crew of the 2018 ZaiGeZaiGu Spring Festival Gala.</figcaption>
-
         <div class="stats">
-          <div class="stat"><b>6</b><span>Volunteer communities: performing arts, music, dance, culture and product building.</span></div>
-          <div class="stat"><b>100+</b><span>Signed agreements with sponsors, venues, media and partner communities.</span></div>
+          <div class="stat"><b>6</b><span>Volunteer communities: stage, music, dance, culture and product building.</span></div>
+          <div class="stat"><b>10+</b><span>Years of ZaiGeZaiGu Spring Festival Galas.</span></div>
           <div class="stat"><b>100%</b><span>Volunteer-run. CBT has no paid staff.</span></div>
         </div>
       </div>
     </section>
 
-    <section class="block alt" id="communities">
+    <section class="block" id="communities">
       <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">Communities we support</div>
-          <h2>Real communities, real stages.</h2>
-          <p class="lead">CBT holds the contracts, the bank account and the tax filings. The communities do what they do best: put on shows, run festivals and bring people together.</p>
-        </div>
-
-        <article class="community">
-          <div class="photos">
-            <img class="wide" src="/assets/img/site/zgzg-2022-singer-cast.jpg" alt="Group photo of the 2022 ZaiGeZaiGu singing contest cast and volunteers" loading="lazy">
-            <img src="/assets/img/site/zgzg-2022-gala-dance.jpg" alt="Dance performance at the 2022 Spring Festival Gala" loading="lazy">
-            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="Craft booth at the 2022 Mid-Autumn Fair" loading="lazy">
-          </div>
+        <div class="comm-intro">
           <div>
-            <span class="tag">Flagship community</span><span class="tag">10+ years</span>
+            <div class="kicker">01</div>
+            <h2 class="h-section">Communities we support</h2>
+            <p class="subtitle">Real communities, real stages.</p>
+            <p class="lede" style="color:var(--ink-2);margin-top:18px;max-width:34em">CBT holds the contracts, the bank account and the tax filings. The communities do what they do best: put on shows, run festivals and bring people together.</p>
+          </div>
+          <ol class="index-list" aria-label="The six communities">
+            <li><a href="#c-zgzg"><span><b>ZaiGeZaiGu 载歌在谷</b><small>Spring Festival Galas, singing contests and culture fairs</small></span></a></li>
+            <li><a href="#c-smile"><span><b>SMILE 亚马逊华人协会</b><small>Seattle</small></span></a></li>
+            <li><a href="#c-startup"><span><b>Startup Band 走起乐队</b><small>Music</small></span></a></li>
+            <li><a href="#c-googirl"><span><b>Googirl 谷妹艺术团</b><small>Dance</small></span></a></li>
+            <li><a href="#c-dotlift"><span><b>DotLift 点翼</b><small>Product community, formerly Haoshiyou 好室友</small></span></a></li>
+            <li><a href="#c-oneness"><span><b>T-Group Oneness</b><small>Personal development</small></span></a></li>
+          </ol>
+        </div>
+        <figure class="comm-photo">
+          <img src="/assets/img/site/zgzg-2022-singer-cast.jpg" alt="Group photo of the 2022 ZaiGeZaiGu singing contest cast and volunteers on stage" width="1600" height="900" loading="lazy">
+          <figcaption>Performers and volunteers of the 2022 ZaiGeZaiGu singing contest.</figcaption>
+        </figure>
+
+        <article class="feature" id="c-zgzg">
+          <div>
+            <div class="tags"><span class="tag">Flagship community</span><span class="tag">10+ years</span></div>
             <h3>ZaiGeZaiGu 载歌在谷</h3>
             <p>ZaiGeZaiGu is a volunteer community of Bay Area Chinese professionals. Every year, hundreds of volunteers, performers and crew produce a Spring Festival Gala, a singing contest and community festivals.</p>
             <ul class="timeline">
-              <li><b>2018</b>Qixi Song Night and Spring Festival Gala</li>
-              <li><b>2019</b>Spring Festival Gala at Flint Center, Cupertino</li>
-              <li><b>2020</b>Spring Festival Gala at San Jose Center for the Performing Arts</li>
-              <li><b>2021</b>Online Spring Festival Gala and Summer Gathering</li>
-              <li><b>2022</b>Gala at SJCPA, singing contest at Hammer Theatre, Mid-Autumn Fair</li>
-              <li><b>2024</b>10th-anniversary Gala at SJCPA, Spring and Fall Culture Fairs, Summer Singing Contest</li>
-              <li><b>2025</b>Autumn Fair</li>
+              <li><b>2018</b><span>Qixi Song Night and Spring Festival Gala</span></li>
+              <li><b>2019</b><span>Spring Festival Gala at Flint Center, Cupertino</span></li>
+              <li><b>2020</b><span>Spring Festival Gala at San Jose Center for the Performing Arts</span></li>
+              <li><b>2021</b><span>Online Spring Festival Gala and Summer Gathering</span></li>
+              <li><b>2022</b><span>Gala at SJCPA, singing contest at Hammer Theatre, Mid-Autumn Fair</span></li>
+              <li><b>2024</b><span>10th-anniversary Gala at SJCPA, Spring and Fall Culture Fairs, Summer Singing Contest</span></li>
+              <li><b>2025</b><span>Autumn Fair</span></li>
             </ul>
-            <a href="https://zgzg.io" target="_blank" rel="noopener">Visit zgzg.io →</a>
+            <p class="links"><a class="more-link" href="https://zgzg.io" target="_blank" rel="noopener">Visit zgzg.io</a> <a class="more-link" href="https://luma.com/zgzg" target="_blank" rel="noopener">Events on Luma</a></p>
+          </div>
+          <div class="photos">
+            <img src="/assets/img/site/zgzg-2022-gala-dance.jpg" alt="Dance performance at the 2022 Spring Festival Gala" width="1400" height="929" loading="lazy">
+            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="Craft booth at the 2022 Mid-Autumn Fair" width="1400" height="933" loading="lazy">
           </div>
         </article>
 
-        <h3 class="subhead">More communities under CBT</h3>
-        <div class="grid grid-3">
-          <div class="card">
-            <div class="poster"><img src="/assets/img/site/smile-2024-qixi-poster.jpg" alt="Poster of the SMILE 2024 Qixi Hanfu Fair in Seattle" loading="lazy"></div>
-            <span class="num">Seattle · CBT chapter</span>
+        <div class="comm-grid">
+          <article class="comm" id="c-smile">
+            <figure class="poster"><img src="/assets/img/site/smile-2024-qixi-poster.jpg" alt="Poster of the SMILE 2024 Qixi Hanfu Fair in Seattle" loading="lazy"></figure>
+            <div class="num">02</div>
             <h3>SMILE 亚马逊华人协会</h3>
+            <div class="where">Seattle · CBT chapter</div>
             <p>The Amazonian Chinese League brings Chinese colleagues in Seattle together for culture and fun.</p>
             <p class="meta">2024: Spring Festival Gala, Qixi Hanfu Fair, summer parties</p>
-          </div>
-          <div class="card">
-            <div class="poster"><img src="/assets/img/site/startup-band-2024-poster.jpg" alt="Poster of the Startup Band 11th anniversary concert" loading="lazy"></div>
-            <span class="num">Music · since 2013</span>
+            <div class="wechat"><img src="/assets/img/site/smile-wechat-qr.jpg" alt="WeChat QR code for the 亚华会SMILE official account" width="88" height="88" loading="lazy"><p class="meta">Scan in WeChat to follow <b>亚华会SMILE</b>.<br><a href="https://mp.weixin.qq.com/s/sJ25UoNO2p1-L0w2BMvo7g" target="_blank" rel="noopener">Latest: 2026 Moonlit Encounter culture fair →</a></p></div>
+          </article>
+          <article class="comm" id="c-startup">
+            <figure class="poster"><img src="/assets/img/site/startup-band-2024-poster.jpg" alt="Poster of the Startup Band 11th anniversary concert" loading="lazy"></figure>
+            <div class="num">03</div>
             <h3>Startup Band 走起乐队</h3>
+            <div class="where">Music · since 2013</div>
             <p>A rock band and musician group in Silicon Valley. The band also plays at ZaiGeZaiGu culture fairs.</p>
             <p class="meta">2024: 11th-anniversary concert at The X Bar, Cupertino</p>
-          </div>
-          <div class="card">
-            <span class="num">Dance</span>
+            <p class="meta"><a href="https://www.youtube.com/channel/UC3oAp1iyk96_itOUovJsyTQ" target="_blank" rel="noopener">Watch on YouTube →</a></p>
+          </article>
+          <article class="comm" id="c-googirl">
+            <figure class="poster"><a href="https://www.youtube.com/@googirldance" target="_blank" rel="noopener"><img src="/assets/img/site/googirl-youtube-channel.jpg" alt="The Googirl Dance YouTube channel: a curtain-call banner and 2026 classical Chinese dance videos" loading="lazy"></a></figure>
+            <div class="num">04</div>
             <h3>Googirl 谷妹艺术团</h3>
+            <div class="where">Dance</div>
             <p>A dance company of Bay Area professionals. Members train in ballet and contemporary dance and perform on community stages.</p>
             <p class="meta">2024: Ballet technique evaluation and showcase</p>
-          </div>
-          <div class="card">
-            <span class="num">Product community · since 2014</span>
-            <h3>DotLift 点翼 (formerly Haoshiyou 好室友)</h3>
-            <p>Haoshiyou started in 2014 as a platform for Bay Area friends to find housemates and rooms. The community now continues as DotLift, a product-building community.</p>
-          </div>
-          <div class="card">
-            <span class="num">Fiscally sponsored since 2024</span>
+            <p class="meta"><a href="https://www.youtube.com/@googirldance" target="_blank" rel="noopener">Watch on YouTube →</a></p>
+          </article>
+          <article class="comm" id="c-dotlift">
+            <div class="num">05</div>
+            <h3>DotLift 点翼</h3>
+            <div class="where">Product community · since 2014 · formerly Haoshiyou 好室友</div>
+            <p>The community started in 2014 with Haoshiyou 好室友, a platform that helps Bay Area friends find housemates and rooms. Haoshiyou still runs today. The community has grown into DotLift, a volunteer tech community that builds public-good software.</p>
+            <p class="meta"><a href="https://dotlift.org" target="_blank" rel="noopener">Visit dotlift.org →</a> &nbsp; <a href="https://haoshiyou.org" target="_blank" rel="noopener">Visit haoshiyou.org →</a></p>
+          </article>
+          <article class="comm" id="c-oneness">
+            <div class="num">06</div>
             <h3>T-Group Oneness</h3>
+            <div class="where">Personal development · fiscally sponsored since 2024</div>
             <p>A Bay Area personal-development community. Donations to Oneness go through CBT and are tax-deductible.</p>
-            <p class="meta"><a href="https://oneness-personal-development.github.io" target="_blank" rel="noopener">Visit Oneness →</a></p>
-          </div>
-          <div class="card">
-            <span class="num">Your community here</span>
+            <p class="meta"><a href="https://www.onenesstgroup.com" target="_blank" rel="noopener">Visit onenesstgroup.com →</a></p>
+          </article>
+          <article class="comm cta">
+            <div class="num">Your community here</div>
             <h3>Run a volunteer community?</h3>
             <p>If your community needs a nonprofit home to sign contracts and accept tax-deductible donations, talk to us.</p>
-            <p class="meta"><a href="#builders">How it works →</a></p>
+            <a class="more-link" href="#builders">How it works</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block rule-top" id="builders">
+      <div class="wrap">
+        <div class="split-head">
+          <div>
+            <div class="kicker">02</div>
+            <h2 class="h-section">For community builders</h2>
+            <p class="subtitle">Focus on your community. CBT handles the paperwork.</p>
+          </div>
+          <p class="lede">Volunteer communities often stall on the same things: who signs the venue contract, where sponsor money goes, and who files taxes. CBT already does all three.</p>
+        </div>
+        <div class="services">
+          <div class="service"><span class="num">01</span><h3>A 501(c)(3) home</h3><p>Accept tax-deductible donations under CBT's nonprofit status through fiscal sponsorship.</p></div>
+          <div class="service"><span class="num">02</span><h3>Contracts and e-signature</h3><p>Use our templates for sponsorship, in-kind, media and venue agreements, signed electronically and filed for you.</p></div>
+          <div class="service"><span class="num">03</span><h3>Sponsor payments and receipts</h3><p>Sponsors pay a registered nonprofit and receive a W-9 and a donation receipt.</p></div>
+          <div class="service"><span class="num">04</span><h3>Venue experience</h3><p>We have rented Flint Center, San Jose Center for the Performing Arts and Hammer Theatre. We know what the contracts ask for.</p></div>
+          <div class="service"><span class="num">05</span><h3>Bookkeeping and filings</h3><p>CBT keeps the books and files the federal and California returns with a CPA.</p></div>
+          <div class="service"><span class="num">06</span><h3>A playbook from real events</h3><p>Our toolbox collects what ZaiGeZaiGu volunteers learned the hard way. See the <a href="#toolbox">toolbox</a>.</p></div>
+        </div>
+        <div class="steps-row">
+          <figure>
+            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="Volunteers in traditional dress help children at a craft booth" width="1400" height="933" loading="lazy">
+          </figure>
+          <div>
+            <h3 style="font-size:1.6rem;margin-bottom:18px">How to join CBT</h3>
+            <ol class="steps">
+              <li><span><b>Tell us about your community</b>Fill in the short form below.</span></li>
+              <li><span><b>Intro call</b>We talk about your activities, budget and team.</span></li>
+              <li><span><b>Sign the agreement</b>We sign a fiscal sponsorship agreement.</span></li>
+              <li><span><b>Start building</b>Use CBT's contracts, account and playbook.</span></li>
+            </ol>
+            <div class="btns"><a class="btn btn-red" href="#join">Bring your community to CBT</a></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="block" id="builders">
+    <section class="block sponsors" id="sponsors">
       <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">For community builders</div>
-          <h2>Focus on your community. CBT handles the paperwork.</h2>
-          <p class="lead">Volunteer communities often stall on the same things: who signs the venue contract, where sponsor money goes, and who files taxes. CBT already does all three.</p>
-        </div>
-        <div class="grid grid-3">
-          <div class="card"><span class="num">01</span><h3>A 501(c)(3) home</h3><p>Accept tax-deductible donations under CBT's nonprofit status through fiscal sponsorship.</p></div>
-          <div class="card"><span class="num">02</span><h3>Contracts and e-signature</h3><p>Use our templates for sponsorship, in-kind, media and venue agreements, signed electronically and filed for you.</p></div>
-          <div class="card"><span class="num">03</span><h3>Sponsor payments and receipts</h3><p>Sponsors pay a registered nonprofit and receive a W-9 and a donation receipt.</p></div>
-          <div class="card"><span class="num">04</span><h3>Venue experience</h3><p>We have rented Flint Center, San Jose Center for the Performing Arts and Hammer Theatre. We know what the contracts ask for.</p></div>
-          <div class="card"><span class="num">05</span><h3>Bookkeeping and filings</h3><p>CBT keeps the books and files the federal and California returns with a CPA.</p></div>
-          <div class="card"><span class="num">06</span><h3>A playbook from real events</h3><p>Our toolbox collects what ZaiGeZaiGu volunteers learned the hard way. See the <a href="#toolbox">toolbox</a>.</p></div>
-        </div>
-        <ol class="steps">
-          <li><b>Tell us about your community</b>Fill in the short form below.</li>
-          <li><b>Intro call</b>We talk about your activities, budget and team.</li>
-          <li><b>Sign the agreement</b>We sign a fiscal sponsorship agreement.</li>
-          <li><b>Start building</b>Use CBT's contracts, account and playbook.</li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="block alt" id="sponsors">
-      <div class="wrap split">
         <div>
-          <div class="eyebrow">For sponsors and donors</div>
-          <h2>Put your brand in front of a full house.</h2>
-          <p class="lead">Local businesses, media and national brands have sponsored ZaiGeZaiGu through CBT since 2018.</p>
+          <div class="kicker">03</div>
+          <h2 class="h-section">For sponsors and donors</h2>
+          <p class="subtitle">Put your brand in front of a full house.</p>
+          <p class="lede">Local businesses, media and national brands have sponsored ZaiGeZaiGu through CBT since 2018.</p>
           <ul class="checks">
             <li>Cash sponsorship, in-kind sponsorship and media partnership</li>
             <li>A signed agreement for every sponsorship</li>
             <li>Payments go to a registered 501(c)(3), so donations can be tax-deductible</li>
             <li>We provide our W-9 and a receipt on request</li>
           </ul>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="#join">Talk to us about sponsorship</a>
-            <a class="btn btn-ghost" href="/files/2023-W9.pdf" target="_blank" rel="noopener">Download W-9</a>
+          <div class="btns">
+            <a class="btn btn-white" href="#join">Talk to us about sponsorship</a>
+            <a class="btn btn-ghost-white" href="/files/2023-W9.pdf" target="_blank" rel="noopener">Download W-9</a>
           </div>
         </div>
         <figure>
-          <img src="/assets/img/site/zgzg-2019-gala-audience.jpg" alt="A full house at the 2019 ZaiGeZaiGu Spring Festival Gala" loading="lazy">
+          <img src="/assets/img/site/zgzg-2019-gala-audience.jpg" alt="A full house at the 2019 ZaiGeZaiGu Spring Festival Gala" width="1080" height="635" loading="lazy">
           <figcaption>A full house at the 2019 Spring Festival Gala, Flint Center. Photo by Shiyang Huang.</figcaption>
         </figure>
       </div>
     </section>
 
     <section class="block" id="toolbox">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">The toolbox</div>
-          <h2>What we learned running volunteer events.</h2>
-          <p class="lead">Every volunteer community runs into the same four problems: money, time, people and handover. Here is what works for us.</p>
+      <div class="wrap toolbox-grid">
+        <div>
+          <div class="kicker">04</div>
+          <h2 class="h-section">The toolbox</h2>
+          <p class="subtitle">What we learned running volunteer events.</p>
+          <p class="lede">Every volunteer community runs into the same four problems: money, time, people and handover. Here is what works for us.</p>
         </div>
         <div class="playbook">
           <details open>
-            <summary><span class="n">01</span>Set the budget before you plan the event<span class="pm">+</span></summary>
+            <summary><span class="n">01</span><span>Set the budget before you plan the event</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>If sponsorship is uncertain, every meeting turns into a budget review. Decide the money first, then size the event to fit.</p>
               <ul>
@@ -193,7 +236,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">02</span>Start early and work back from the show date<span class="pm">+</span></summary>
+            <summary><span class="n">02</span><span>Start early and work back from the show date</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>A short preparation window is the most common reason a show feels rushed. Fix the venue first, then build the timeline backward.</p>
               <ul>
@@ -204,7 +247,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">03</span>Recruit for every team, not only the stage<span class="pm">+</span></summary>
+            <summary><span class="n">03</span><span>Recruit for every team, not only the stage</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>Volunteers give time because of the community and the experience. When too few people join, team leads end up doing everything.</p>
               <ul>
@@ -215,7 +258,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">04</span>Hand over gradually, not all at once<span class="pm">+</span></summary>
+            <summary><span class="n">04</span><span>Hand over gradually, not all at once</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>When the whole production team changes every year, each new team relearns the same lessons. Gradual handover keeps the knowledge.</p>
               <ul>
@@ -226,7 +269,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">05</span>Put every agreement in writing<span class="pm">+</span></summary>
+            <summary><span class="n">05</span><span>Put every agreement in writing</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>Sponsors, venues and partners all deserve a signed agreement. Written agreements protect volunteers and make the next year easier.</p>
               <ul>
@@ -240,14 +283,19 @@
       </div>
     </section>
 
-    <section class="block band" id="join">
+    <section class="band" id="join">
       <div class="wrap">
-        <div class="eyebrow" style="color:#e9a79f">Join CBT</div>
-        <h2>Volunteer, sponsor, or bring your community.</h2>
-        <p class="lead">Tell us who you are and what you want to build. A CBT volunteer will reply.</p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfz0pANcMd3GgHqfvQs93E_ACPFsc58vSVewyxth0oASxiGZA/viewform" target="_blank" rel="noopener">Fill in the form</a>
-          <a class="btn btn-ghost" href="https://www.facebook.com/CommunityBuilderToolbox" target="_blank" rel="noopener">Facebook</a>
+        <div>
+          <div class="kicker">05</div>
+          <h2 class="h-section">Join CBT</h2>
+          <p class="subtitle">Volunteer, sponsor, or bring your community.</p>
+        </div>
+        <div class="right">
+          <p>Tell us who you are and what you want to build. A CBT volunteer will reply.</p>
+          <div class="btns">
+            <a class="btn btn-white" href="https://docs.google.com/forms/d/e/1FAIpQLSfz0pANcMd3GgHqfvQs93E_ACPFsc58vSVewyxth0oASxiGZA/viewform" target="_blank" rel="noopener">Fill in the form</a>
+            <a class="btn btn-ghost-white" href="https://www.facebook.com/CommunityBuilderToolbox" target="_blank" rel="noopener">Facebook</a>
+          </div>
         </div>
       </div>
     </section>
@@ -255,9 +303,11 @@
 
   <footer>
     <div class="wrap">
+      <a class="brand" href="/"><img src="/assets/img/brand/cbt-logo.png" alt="" width="40" height="40"><span>Community Builder Toolbox</span></a>
       <div>© Community Builder Toolbox, Inc. A California 501(c)(3) nonprofit.</div>
-      <div><a href="/zh/" lang="zh">中文</a> · <a href="https://github.com/dotlift/cbt" target="_blank" rel="noopener">Source</a></div>
+      <nav aria-label="Footer"><a href="/zh/" lang="zh" hreflang="zh">中文</a><a href="https://github.com/dotlift/cbt" target="_blank" rel="noopener">Source</a></nav>
     </div>
   </footer>
+  <script src="/assets/site/site.js" defer></script>
 </body>
 </html>

@@ -4,185 +4,228 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>社区建设者工具箱 Community Builder Toolbox</title>
-  <meta name="description" content="Community Builder Toolbox（CBT）是旧金山湾区一家全部由志愿者运营的 501(c)(3) 非营利组织，为载歌在谷等志愿者社区提供非营利身份、合同和运营经验。">
+  <meta name="description" content="Community Builder Toolbox（CBT，社区建设者工具箱）是一家全部由志愿者运营的 501(c)(3) 非营利组织，是湾区和西雅图六个志愿者社区的非营利之家，包括载歌在谷。">
+  <meta name="theme-color" content="#fbf8f3">
   <link rel="alternate" hreflang="zh" href="/zh/">
   <link rel="alternate" hreflang="en" href="/">
   <link rel="icon" type="image/png" href="/assets/img/brand/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site/site.css">
 </head>
-<body>
+<body class="zh">
+  <a class="skip" href="#main">跳到正文</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/zh/"><img src="/assets/img/brand/cbt-logo.png" alt="">社区建设者工具箱</a>
-      <nav class="nav">
+      <a class="brand" href="/zh/"><img src="/assets/img/brand/cbt-logo.png" alt="" width="44" height="44"><span>社区建设者工具箱</span></a>
+      <a class="lang-mobile" href="/" lang="en" hreflang="en">English</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">菜单</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="主导航">
         <a href="#communities">我们支持的社区</a>
         <a href="#builders">给社区发起人</a>
         <a href="#sponsors">给赞助商</a>
         <a href="#toolbox">工具箱</a>
         <a href="#join">加入我们</a>
+        <a class="lang" href="/" lang="en" hreflang="en">English</a>
       </nav>
-      <a class="lang" href="/" lang="en">English</a>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="wrap">
         <div class="eyebrow">501(c)(3) 非营利组织 · 旧金山湾区</div>
-        <h1>志愿者社区的非营利之家。</h1>
-        <p class="lead">Community Builder Toolbox（CBT，社区建设者工具箱）为志愿者社区提供合法的非营利身份、签好的合同和一套可以照着做的经验。从 2018 年起，CBT 承办了载歌在谷的春晚、歌手赛和游园会。今天，CBT 是湾区和西雅图六个志愿者社区的非营利之家。</p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="#builders">让你的社区加入 CBT</a>
-          <a class="btn btn-ghost" href="#sponsors">赞助一个社区</a>
+        <h1 class="h-display">志愿者社区的<br><span class="red">非营利之家。</span></h1>
+        <p class="lead">Community Builder Toolbox（CBT，社区建设者工具箱）从 2018 年起承办载歌在谷的春晚、歌手赛和游园会。今天，CBT 是湾区和西雅图六个志愿者社区的非营利之家。</p>
+        <div class="btns">
+          <a class="btn btn-red" href="#builders">让你的社区加入 CBT</a>
+          <a class="btn btn-line" href="#sponsors">赞助一个社区</a>
         </div>
-        <figure class="hero-photo">
-          <img src="/assets/img/site/zgzg-2018-gala-cast.jpg" alt="2018 年载歌在谷春晚演职人员在舞台上合影">
+        <figure class="hero-figure">
+          <img src="/assets/img/site/zgzg-2018-gala-cast.jpg" alt="2018 年载歌在谷春晚演职人员在舞台上合影" width="1800" height="1019" fetchpriority="high">
+          <figcaption>2018 年载歌在谷春晚演职人员合影。</figcaption>
         </figure>
-        <figcaption>2018 年载歌在谷春晚演职人员合影。</figcaption>
-
         <div class="stats">
           <div class="stat"><b>6</b><span>个志愿者社区，涵盖舞台演出、音乐、舞蹈、文化和产品。</span></div>
-          <div class="stat"><b>100+</b><span>与赞助商、剧场、媒体和合作社区签署的协议。</span></div>
+          <div class="stat"><b>十余年</b><span>载歌在谷春晚，年年登台。</span></div>
           <div class="stat"><b>100%</b><span>全部由志愿者运营，CBT 没有带薪员工。</span></div>
         </div>
       </div>
     </section>
 
-    <section class="block alt" id="communities">
+    <section class="block" id="communities">
       <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">我们支持的社区</div>
-          <h2>真实的社区，真实的舞台。</h2>
-          <p class="lead">CBT 负责合同、银行账户和报税。社区专心做自己最擅长的事：办演出、办游园、把人聚在一起。</p>
-        </div>
-
-        <article class="community">
-          <div class="photos">
-            <img class="wide" src="/assets/img/site/zgzg-2022-singer-cast.jpg" alt="2022 年载歌在谷歌手赛演职人员和志愿者大合影" loading="lazy">
-            <img src="/assets/img/site/zgzg-2022-gala-dance.jpg" alt="2022 年春晚舞蹈节目" loading="lazy">
-            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="2022 年中秋游园的手工摊位" loading="lazy">
-          </div>
+        <div class="comm-intro">
           <div>
-            <span class="tag">旗舰社区</span><span class="tag">十余年</span>
+            <div class="kicker">01</div>
+            <h2 class="h-section">我们支持的社区</h2>
+            <p class="subtitle">真实的社区，真实的舞台。</p>
+            <p class="lede" style="color:var(--ink-2);margin-top:18px;max-width:34em">CBT 负责合同、银行账户和报税。社区专心做自己最擅长的事：办演出、办游园、把人聚在一起。</p>
+          </div>
+          <ol class="index-list" aria-label="六个社区">
+            <li><a href="#c-zgzg"><span><b>载歌在谷 ZaiGeZaiGu</b><small>春晚、歌手赛、游园会</small></span></a></li>
+            <li><a href="#c-smile"><span><b>SMILE 亚马逊华人协会</b><small>西雅图</small></span></a></li>
+            <li><a href="#c-startup"><span><b>走起乐队 Startup Band</b><small>音乐</small></span></a></li>
+            <li><a href="#c-googirl"><span><b>谷妹艺术团 Googirl</b><small>舞蹈</small></span></a></li>
+            <li><a href="#c-dotlift"><span><b>点翼 DotLift</b><small>产品社区，前身好室友</small></span></a></li>
+            <li><a href="#c-oneness"><span><b>T-Group Oneness</b><small>个人成长</small></span></a></li>
+          </ol>
+        </div>
+        <figure class="comm-photo">
+          <img src="/assets/img/site/zgzg-2022-singer-cast.jpg" alt="2022 年载歌在谷歌手赛演职人员和志愿者在舞台上大合影" width="1600" height="900" loading="lazy">
+          <figcaption>2022 年载歌在谷歌手赛的演员和志愿者。</figcaption>
+        </figure>
+
+        <article class="feature" id="c-zgzg">
+          <div>
+            <div class="tags"><span class="tag">旗舰社区</span><span class="tag">十余年</span></div>
             <h3>载歌在谷 ZaiGeZaiGu</h3>
             <p>载歌在谷是湾区华人职场人士的志愿者社区。每年有数百名志愿者、演员和工作人员一起办春晚、歌手赛和社区游园。</p>
             <ul class="timeline">
-              <li><b>2018</b>七夕歌会、春节晚会</li>
-              <li><b>2019</b>春晚登上 Cupertino 的 Flint Center</li>
-              <li><b>2020</b>春晚在 San Jose Center for the Performing Arts 举办</li>
-              <li><b>2021</b>线上春晚、夏季云集</li>
-              <li><b>2022</b>SJCPA 春晚、Hammer Theatre 歌手赛、中秋游园</li>
-              <li><b>2024</b>十周年春晚（SJCPA）、春季游园、夏季歌手赛、秋季游园</li>
-              <li><b>2025</b>秋季游园</li>
+              <li><b>2018</b><span>七夕歌会、春节晚会</span></li>
+              <li><b>2019</b><span>春晚登上 Cupertino 的 Flint Center</span></li>
+              <li><b>2020</b><span>春晚在 San Jose Center for the Performing Arts 举办</span></li>
+              <li><b>2021</b><span>线上春晚、夏季云集</span></li>
+              <li><b>2022</b><span>SJCPA 春晚、Hammer Theatre 歌手赛、中秋游园</span></li>
+              <li><b>2024</b><span>十周年春晚（SJCPA）、春季游园、夏季歌手赛、秋季游园</span></li>
+              <li><b>2025</b><span>秋季游园</span></li>
             </ul>
-            <a href="https://zgzg.io" target="_blank" rel="noopener">访问 zgzg.io →</a>
+            <p class="links"><a class="more-link" href="https://zgzg.io" target="_blank" rel="noopener">访问 zgzg.io</a> <a class="more-link" href="https://luma.com/zgzg" target="_blank" rel="noopener">Luma 活动日历</a></p>
+          </div>
+          <div class="photos">
+            <img src="/assets/img/site/zgzg-2022-gala-dance.jpg" alt="2022 年春晚舞蹈节目" width="1400" height="929" loading="lazy">
+            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="2022 年中秋游园的手工摊位" width="1400" height="933" loading="lazy">
           </div>
         </article>
 
-        <h3 class="subhead">CBT 旗下的更多社区</h3>
-        <div class="grid grid-3">
-          <div class="card">
-            <div class="poster"><img src="/assets/img/site/smile-2024-qixi-poster.jpg" alt="SMILE 2024 西雅图七夕汉服游园会海报" loading="lazy"></div>
-            <span class="num">西雅图 · CBT 分会</span>
+        <div class="comm-grid">
+          <article class="comm" id="c-smile">
+            <figure class="poster"><img src="/assets/img/site/smile-2024-qixi-poster.jpg" alt="SMILE 2024 西雅图七夕汉服游园会海报" loading="lazy"></figure>
+            <div class="num">02</div>
             <h3>SMILE 亚马逊华人协会</h3>
+            <div class="where">西雅图 · CBT 分会</div>
             <p>亚马逊华人协会（Amazonian Chinese League）把西雅图的华人同事聚在一起，办文化活动和联谊。</p>
             <p class="meta">2024 年：春晚、七夕汉服游园会、夏日派对</p>
-          </div>
-          <div class="card">
-            <div class="poster"><img src="/assets/img/site/startup-band-2024-poster.jpg" alt="走起乐队 11 周年专场演出海报" loading="lazy"></div>
-            <span class="num">音乐 · 2013 年起</span>
+            <div class="wechat"><img src="/assets/img/site/smile-wechat-qr.jpg" alt="亚华会SMILE 微信公众号二维码" width="88" height="88" loading="lazy"><p class="meta">微信扫码关注 <b>亚华会SMILE</b>。<br><a href="https://mp.weixin.qq.com/s/sJ25UoNO2p1-L0w2BMvo7g" target="_blank" rel="noopener">最新：2026《月下奇遇》古风游园会 →</a></p></div>
+          </article>
+          <article class="comm" id="c-startup">
+            <figure class="poster"><img src="/assets/img/site/startup-band-2024-poster.jpg" alt="走起乐队 11 周年专场演出海报" loading="lazy"></figure>
+            <div class="num">03</div>
             <h3>走起乐队 Startup Band</h3>
+            <div class="where">音乐 · 2013 年起</div>
             <p>硅谷的摇滚乐队和音乐人社区，也常在载歌在谷的游园会上演出。</p>
             <p class="meta">2024 年：Cupertino The X Bar 11 周年专场</p>
-          </div>
-          <div class="card">
-            <span class="num">舞蹈</span>
+            <p class="meta"><a href="https://www.youtube.com/channel/UC3oAp1iyk96_itOUovJsyTQ" target="_blank" rel="noopener">YouTube 频道 →</a></p>
+          </article>
+          <article class="comm" id="c-googirl">
+            <figure class="poster"><a href="https://www.youtube.com/@googirldance" target="_blank" rel="noopener"><img src="/assets/img/site/googirl-youtube-channel.jpg" alt="谷妹艺术团 YouTube 频道页面：谢幕横幅和 2026 年中国古典舞考核视频" loading="lazy"></a></figure>
+            <div class="num">04</div>
             <h3>谷妹艺术团 Googirl</h3>
+            <div class="where">舞蹈</div>
             <p>由湾区职场人士组成的舞蹈团，成员练习芭蕾和现代舞，在社区舞台上演出。</p>
             <p class="meta">2024 年：芭蕾技术考评与汇报演出</p>
-          </div>
-          <div class="card">
-            <span class="num">产品社区 · 2014 年起</span>
-            <h3>点翼 DotLift（前身好室友）</h3>
-            <p>好室友 2014 年起步，帮湾区朋友找室友、找房子。社区现在以点翼的名字延续，成为一个做产品的社区。</p>
-          </div>
-          <div class="card">
-            <span class="num">2024 年起由 CBT 财务托管</span>
+            <p class="meta"><a href="https://www.youtube.com/@googirldance" target="_blank" rel="noopener">YouTube 频道 →</a></p>
+          </article>
+          <article class="comm" id="c-dotlift">
+            <div class="num">05</div>
+            <h3>点翼 DotLift</h3>
+            <div class="where">产品社区 · 2014 年起 · 前身好室友</div>
+            <p>社区 2014 年从好室友起步。好室友帮湾区朋友找室友、找房子，至今仍在运营。社区后来发展成点翼，一个由志愿者组成、做公益软件产品的技术社区。</p>
+            <p class="meta"><a href="https://dotlift.org" target="_blank" rel="noopener">访问 dotlift.org →</a> &nbsp; <a href="https://haoshiyou.org" target="_blank" rel="noopener">访问 haoshiyou.org →</a></p>
+          </article>
+          <article class="comm" id="c-oneness">
+            <div class="num">06</div>
             <h3>T-Group Oneness</h3>
+            <div class="where">个人成长 · 2024 年起由 CBT 财务托管</div>
             <p>湾区的个人成长社区。捐给 Oneness 的款项经由 CBT 收取，可以抵税。</p>
-            <p class="meta"><a href="https://oneness-personal-development.github.io" target="_blank" rel="noopener">访问 Oneness →</a></p>
-          </div>
-          <div class="card">
-            <span class="num">下一个就是你的社区</span>
+            <p class="meta"><a href="https://www.onenesstgroup.com" target="_blank" rel="noopener">访问 onenesstgroup.com →</a></p>
+          </article>
+          <article class="comm cta">
+            <div class="num">下一个就是你的社区</div>
             <h3>你在运营一个志愿者社区吗？</h3>
             <p>如果你的社区需要一个非营利身份来签合同、收可抵税的捐款，欢迎联系我们。</p>
-            <p class="meta"><a href="#builders">了解流程 →</a></p>
+            <a class="more-link" href="#builders">了解流程</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block rule-top" id="builders">
+      <div class="wrap">
+        <div class="split-head">
+          <div>
+            <div class="kicker">02</div>
+            <h2 class="h-section">给社区发起人</h2>
+            <p class="subtitle">你专心做社区，文书交给 CBT。</p>
+          </div>
+          <p class="lede">志愿者社区常常卡在同样几件事上：谁来签场地合同，赞助款打到哪里，谁来报税。这三件事 CBT 都已经在做。</p>
+        </div>
+        <div class="services">
+          <div class="service"><span class="num">01</span><h3>501(c)(3) 身份</h3><p>通过财务托管，你的社区可以用 CBT 的非营利身份接受可抵税的捐款。</p></div>
+          <div class="service"><span class="num">02</span><h3>合同模板与电子签</h3><p>现金赞助、实物赞助、媒体合作、场地租用都有模板，电子签署，统一归档。</p></div>
+          <div class="service"><span class="num">03</span><h3>赞助收款与收据</h3><p>赞助商付款给注册的非营利组织，可以拿到 W-9 和捐款收据。</p></div>
+          <div class="service"><span class="num">04</span><h3>剧场经验</h3><p>我们租过 Flint Center、San Jose Center for the Performing Arts 和 Hammer Theatre，熟悉场地合同的要求。</p></div>
+          <div class="service"><span class="num">05</span><h3>记账与报税</h3><p>CBT 负责记账，并与会计师一起完成联邦和加州的年度申报。</p></div>
+          <div class="service"><span class="num">06</span><h3>来自真实活动的经验</h3><p>工具箱收录了载歌在谷志愿者踩过的坑。请看<a href="#toolbox">工具箱</a>。</p></div>
+        </div>
+        <div class="steps-row">
+          <figure>
+            <img src="/assets/img/site/zgzg-2022-fair.jpg" alt="穿传统服饰的志愿者在手工摊位帮助小朋友" width="1400" height="933" loading="lazy">
+          </figure>
+          <div>
+            <h3 style="font-size:1.6rem;margin-bottom:18px">加入 CBT 的四步</h3>
+            <ol class="steps">
+              <li><span><b>介绍你的社区</b>填写下方的简短表格。</span></li>
+              <li><span><b>初步通话</b>聊聊你们的活动、预算和团队。</span></li>
+              <li><span><b>签署协议</b>双方签署财务托管协议。</span></li>
+              <li><span><b>开始建设</b>使用 CBT 的合同、账户和工具箱。</span></li>
+            </ol>
+            <div class="btns"><a class="btn btn-red" href="#join">让你的社区加入 CBT</a></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="block" id="builders">
+    <section class="block sponsors" id="sponsors">
       <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">给社区发起人</div>
-          <h2>你专心做社区，文书交给 CBT。</h2>
-          <p class="lead">志愿者社区常常卡在同样几件事上：谁来签场地合同，赞助款打到哪里，谁来报税。这三件事 CBT 都已经在做。</p>
-        </div>
-        <div class="grid grid-3">
-          <div class="card"><span class="num">01</span><h3>501(c)(3) 身份</h3><p>通过财务托管，你的社区可以用 CBT 的非营利身份接受可抵税的捐款。</p></div>
-          <div class="card"><span class="num">02</span><h3>合同模板与电子签</h3><p>现金赞助、实物赞助、媒体合作、场地租用都有模板，电子签署，统一归档。</p></div>
-          <div class="card"><span class="num">03</span><h3>赞助收款与收据</h3><p>赞助商付款给注册的非营利组织，可以拿到 W-9 和捐款收据。</p></div>
-          <div class="card"><span class="num">04</span><h3>剧场经验</h3><p>我们租过 Flint Center、San Jose Center for the Performing Arts 和 Hammer Theatre，熟悉场地合同的要求。</p></div>
-          <div class="card"><span class="num">05</span><h3>记账与报税</h3><p>CBT 负责记账，并与会计师一起完成联邦和加州的年度申报。</p></div>
-          <div class="card"><span class="num">06</span><h3>来自真实活动的经验</h3><p>工具箱收录了载歌在谷志愿者踩过的坑。请看<a href="#toolbox">工具箱</a>。</p></div>
-        </div>
-        <ol class="steps">
-          <li><b>介绍你的社区</b>填写下方的简短表格。</li>
-          <li><b>初步通话</b>聊聊你们的活动、预算和团队。</li>
-          <li><b>签署协议</b>双方签署财务托管协议。</li>
-          <li><b>开始建设</b>使用 CBT 的合同、账户和工具箱。</li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="block alt" id="sponsors">
-      <div class="wrap split">
         <div>
-          <div class="eyebrow">给赞助商和捐款人</div>
-          <h2>让你的品牌站在满场观众面前。</h2>
-          <p class="lead">从 2018 年起，本地商家、媒体和全国性品牌通过 CBT 赞助载歌在谷。</p>
+          <div class="kicker">03</div>
+          <h2 class="h-section">给赞助商和捐款人</h2>
+          <p class="subtitle">让你的品牌站在满场观众面前。</p>
+          <p class="lede">从 2018 年起，本地商家、媒体和全国性品牌通过 CBT 赞助载歌在谷。</p>
           <ul class="checks">
             <li>现金赞助、实物赞助、媒体合作</li>
             <li>每一笔赞助都有签署的协议</li>
             <li>款项付给注册的 501(c)(3)，捐款可以抵税</li>
             <li>我们按需提供 W-9 和收据</li>
           </ul>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="#join">洽谈赞助</a>
-            <a class="btn btn-ghost" href="/files/2023-W9.pdf" target="_blank" rel="noopener">下载 W-9</a>
+          <div class="btns">
+            <a class="btn btn-white" href="#join">洽谈赞助</a>
+            <a class="btn btn-ghost-white" href="/files/2023-W9.pdf" target="_blank" rel="noopener">下载 W-9</a>
           </div>
         </div>
         <figure>
-          <img src="/assets/img/site/zgzg-2019-gala-audience.jpg" alt="2019 年载歌在谷春晚的满场观众" loading="lazy">
+          <img src="/assets/img/site/zgzg-2019-gala-audience.jpg" alt="2019 年载歌在谷春晚的满场观众" width="1080" height="635" loading="lazy">
           <figcaption>2019 年春晚，Flint Center 满场观众。摄影：Shiyang Huang。</figcaption>
         </figure>
       </div>
     </section>
 
     <section class="block" id="toolbox">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">工具箱</div>
-          <h2>我们办志愿者活动学到的事。</h2>
-          <p class="lead">每个志愿者社区都会遇到同样四个难题：钱、时间、人手、交接。下面是对我们有用的做法。</p>
+      <div class="wrap toolbox-grid">
+        <div>
+          <div class="kicker">04</div>
+          <h2 class="h-section">工具箱</h2>
+          <p class="subtitle">我们办志愿者活动学到的事。</p>
+          <p class="lede">每个志愿者社区都会遇到同样四个难题：钱、时间、人手、交接。下面是对我们有用的做法。</p>
         </div>
         <div class="playbook">
           <details open>
-            <summary><span class="n">01</span>先定预算，再定活动规模<span class="pm">+</span></summary>
+            <summary><span class="n">01</span><span>先定预算，再定活动规模</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>赞助不确定的时候，每次开会都会变成预算审核。先把钱定下来，再按钱定活动规模。</p>
               <ul>
@@ -193,7 +236,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">02</span>提前开始，从演出日期倒排时间线<span class="pm">+</span></summary>
+            <summary><span class="n">02</span><span>提前开始，从演出日期倒排时间线</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>筹备时间太短，是演出显得仓促的最常见原因。先定场地，再倒排时间线。</p>
               <ul>
@@ -204,7 +247,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">03</span>为每个组招人，不只为舞台招人<span class="pm">+</span></summary>
+            <summary><span class="n">03</span><span>为每个组招人，不只为舞台招人</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>志愿者是为了社区和体验付出时间。人手不够的时候，组长只好什么都自己做。</p>
               <ul>
@@ -215,7 +258,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">04</span>渐进换届，不要一次全换<span class="pm">+</span></summary>
+            <summary><span class="n">04</span><span>渐进换届，不要一次全换</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>出品团队每年整体换届，新团队就要把同样的坑再踩一遍。渐进换届才能把经验留下来。</p>
               <ul>
@@ -226,7 +269,7 @@
             </div>
           </details>
           <details>
-            <summary><span class="n">05</span>每一份约定都写成协议<span class="pm">+</span></summary>
+            <summary><span class="n">05</span><span>每一份约定都写成协议</span><span class="pm" aria-hidden="true">+</span></summary>
             <div class="body">
               <p>赞助商、场地和合作方都应该有一份签好的协议。书面协议保护志愿者，也让下一年更好办。</p>
               <ul>
@@ -240,14 +283,19 @@
       </div>
     </section>
 
-    <section class="block band" id="join">
+    <section class="band" id="join">
       <div class="wrap">
-        <div class="eyebrow" style="color:#e9a79f">加入 CBT</div>
-        <h2>做志愿者、做赞助商，或者带你的社区加入。</h2>
-        <p class="lead">告诉我们你是谁、想做什么，CBT 的志愿者会回复你。</p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfz0pANcMd3GgHqfvQs93E_ACPFsc58vSVewyxth0oASxiGZA/viewform" target="_blank" rel="noopener">填写表格</a>
-          <a class="btn btn-ghost" href="https://www.facebook.com/CommunityBuilderToolbox" target="_blank" rel="noopener">Facebook</a>
+        <div>
+          <div class="kicker">05</div>
+          <h2 class="h-section">加入 CBT</h2>
+          <p class="subtitle">做志愿者、做赞助商，或者带你的社区加入。</p>
+        </div>
+        <div class="right">
+          <p>告诉我们你是谁、想做什么，CBT 的志愿者会回复你。</p>
+          <div class="btns">
+            <a class="btn btn-white" href="https://docs.google.com/forms/d/e/1FAIpQLSfz0pANcMd3GgHqfvQs93E_ACPFsc58vSVewyxth0oASxiGZA/viewform" target="_blank" rel="noopener">填写表格</a>
+            <a class="btn btn-ghost-white" href="https://www.facebook.com/CommunityBuilderToolbox" target="_blank" rel="noopener">Facebook</a>
+          </div>
         </div>
       </div>
     </section>
@@ -255,9 +303,11 @@
 
   <footer>
     <div class="wrap">
+      <a class="brand" href="/zh/"><img src="/assets/img/brand/cbt-logo.png" alt="" width="40" height="40"><span>社区建设者工具箱</span></a>
       <div>© Community Builder Toolbox, Inc. 加州 501(c)(3) 非营利组织。</div>
-      <div><a href="/" lang="en">English</a> · <a href="https://github.com/dotlift/cbt" target="_blank" rel="noopener">源代码</a></div>
+      <nav aria-label="页脚"><a href="/" lang="en" hreflang="en">English</a><a href="https://github.com/dotlift/cbt" target="_blank" rel="noopener">源代码</a></nav>
     </div>
   </footer>
+  <script src="/assets/site/site.js" defer></script>
 </body>
 </html>
