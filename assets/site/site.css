@@ -269,3 +269,6 @@ footer nav { display: flex; gap: 20px; }
 .links { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; }
 .comm .poster.photo { border: 0; background: none; }
 .comm .poster.photo img { aspect-ratio: 16 / 9; object-fit: cover; padding: 0; }
+.wechat { display: flex; gap: 14px; align-items: center; margin-top: 12px; }
+.wechat img { width: 88px; height: 88px; flex: none; border: 1px solid var(--line); background: #fff; }
+.wechat .meta b { color: var(--ink); font-weight: 600; }
