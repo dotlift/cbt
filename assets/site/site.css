@@ -31,6 +31,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 img { max-width: 100%; height: auto; display: block; }
+/* <picture> only picks the image file. The <img> inside keeps its place in grids and flex rows. */
+picture { display: contents; }
+picture source { display: none; }
 a { color: var(--red); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--red-dark); }
 :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 2px; }
