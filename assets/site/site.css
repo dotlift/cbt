@@ -266,3 +266,4 @@ footer nav { display: flex; gap: 20px; }
 @media (min-width: 901px) { .comm:nth-child(3n) { padding-right: 0; } .comm.cta { padding: 28px; } }
 .zh .brand span { max-width: none; white-space: nowrap; }
 .brand { flex: none; }
+.links { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; }
