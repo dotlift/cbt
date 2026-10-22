@@ -156,8 +156,8 @@ section.block { padding: clamp(64px, 9vw, 120px) 0; }
 .comm .where { font-size: .85rem; color: var(--ink-3); margin-bottom: 12px; }
 .comm p { color: var(--ink-2); font-size: .97rem; }
 .comm .meta { font-size: .88rem; color: var(--ink-3); margin: 0; }
-.comm .poster { margin: 0 0 18px; background: var(--paper-2); }
-.comm .poster img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; }
+.comm .poster { margin: 0 0 18px; background: var(--paper-2); border: 1px solid var(--line); }
+.comm .poster img { width: 100%; aspect-ratio: 4 / 5; object-fit: contain; object-position: center; padding: 14px; } /* contain: show the whole poster; the paper box fills the rest */
 .comm.cta { background: var(--paper-2); padding: 28px; border-left: 1px solid var(--line); }
 @media (max-width: 900px) {
   .comm-grid { grid-template-columns: 1fr 1fr; }
