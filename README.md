@@ -20,7 +20,7 @@ sitemap.xml           The two pages and their language versions
 _redirects            Netlify redirects (old /index_zh.html goes to /zh/)
 ```
 
-Both pages have the same sections: communities, for builders, for sponsors, toolbox, join.
+Both pages have the same sections: communities, toolbox, join. The builders and sponsors sections are removed for now; git history keeps them.
 
 The design uses warm white paper, near-black text and one tomato red (`--red` in `site.css`).
 Headings use the Source Serif 4 font (Noto Serif SC on the Chinese page). Body text uses Inter.
