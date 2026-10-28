@@ -275,3 +275,4 @@ footer nav { display: flex; gap: 20px; }
 .wechat { display: flex; gap: 14px; align-items: center; margin-top: 12px; }
 .wechat img { width: 88px; height: 88px; flex: none; border: 1px solid var(--line); background: #fff; }
 .wechat .meta b { color: var(--ink); font-weight: 600; }
+.lang-mobile { white-space: nowrap; }
